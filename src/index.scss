@@ -1,0 +1,25 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+:root{
+  --white:rgb(153,151,165);
+  --secondary:rgb(85, 82, 107);
+  --black: #242424;
+  --navigationBackground: rgb(67,63,91);
+  --resultCardLightBg:rgb(247,247,247);
+  --resultCardDarkBg:rgb(232,232,232);
+  --resultCardTextColor: rgb(64,64,64);
+}

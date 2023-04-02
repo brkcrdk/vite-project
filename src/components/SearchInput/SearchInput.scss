@@ -1,0 +1,25 @@
+.searchInput__inputWrapper{
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.searchInput__searchIcon{
+  color: var(--white);
+}
+
+.searchInput__searchElement{
+  border: none;
+  border-bottom: 1px solid var(--white);
+  color:var(--white);
+  padding: 6px 0;
+  background: none;
+  width: 100%;
+  max-width: 600px;
+  &::placeholder{
+    opacity: 0.9;
+  }
+  &:focus{
+    outline: none;
+  }
+}

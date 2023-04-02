@@ -1,0 +1,54 @@
+.resultCard__wrapper{
+  color:var(--resultCardTextColor);
+  padding: 12px;
+  
+  h2{
+    line-height: 0;
+    font-weight: 400;
+  }
+  a {
+    text-decoration: none;
+    color: var(--resultCardTextColor);
+  }
+  
+  &.dark{
+    background: var(--resultCardDarkBg);
+  };
+  &.light {
+    background: var(--resultCardLightBg);
+  }
+}
+.resultCard__userInfo{
+  display: flex; 
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+
+  @media (max-width:768px){
+    display: grid;
+  }
+  
+  a {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 14px;
+    font-weight: 800;
+  }
+
+  &__phoneNumber {
+    flex: 0.2;
+  }
+  &__fileNumber{
+    flex: 1;
+  }
+  &__email {
+    flex: 0.3;
+  }
+
+  &__phoneNumber, &__fileNumber, &__email{
+    @media (max-width:1024px) {
+      flex: 1;
+    }
+  }
+}
